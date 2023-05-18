@@ -18,6 +18,10 @@ pipeline {
             steps {
                 echo 'I am in Deploy Phase'
             }
+         stage('Monitor') {
+            steps {
+                echo 'I am in monitor Phase'
+            }
         }   
     }
 }
